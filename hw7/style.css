@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-container {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-container button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+.tasks-container {
+    margin-top: 20px;
+}
+
+.tasks-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tasks-container li {
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    border-radius: 4px;
+}
+
+.tasks-container li .cancel-btn {
+    color: #dc3545;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.tasks-container li .cancel-btn:hover {
+    color: #c82333;
+}
